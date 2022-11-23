@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
 namespace mattmc3.dotmore.Extensions {
+#if false // issue with System.ComponentModel.DataAnnotations
 	public static class EnumExtensions {
 		/// <summary>
 		/// Gets the description from any System.ComponentModel.DataAnnotations.DisplayAttribute or
@@ -46,4 +47,5 @@ namespace mattmc3.dotmore.Extensions {
 			return (dispAttributes.Length > 0) ? fn(dispAttributes[0]) : null;
 		}
 	}
+#endif
 }
