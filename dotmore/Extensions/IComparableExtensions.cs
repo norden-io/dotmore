@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mattmc3.dotmore.Extensions {
+namespace dotmore.Extensions {
 	public static class IComparableExtensions {
 		public static bool IsBetween<T>(this T cmp, T lower, T upper, bool inclusiveOfUpperValue = true) where T : IComparable<T> {
 			if (inclusiveOfUpperValue) {

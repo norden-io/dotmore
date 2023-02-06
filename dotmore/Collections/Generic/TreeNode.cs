@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using mattmc3.dotmore.Extensions;
+using dotmore.Extensions;
 //using mattmc3.dotmore.Diagnostics;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 
 	public enum TreeTraversal {
 		DepthFirstPreOrder,

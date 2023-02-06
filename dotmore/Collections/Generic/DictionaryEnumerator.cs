@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 	public class DictionaryEnumerator<TKey, TValue> : IDictionaryEnumerator, IDisposable {
 		readonly IEnumerator<KeyValuePair<TKey, TValue>> _impl;
 		public void Dispose() { _impl.Dispose(); }

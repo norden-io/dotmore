@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.Specialized;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 
 	public interface IOrderedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, IOrderedDictionary {
 		new TValue this[int index] { get; set; }

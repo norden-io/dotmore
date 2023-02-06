@@ -1,6 +1,6 @@
 {
-    "name": "mattmc3.dotmore",
-    "rootNamespace": "mattmc3.dotmore",
+    "name": "dotmore",
+    "rootNamespace": "dotmore",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

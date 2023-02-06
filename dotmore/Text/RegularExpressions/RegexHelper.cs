@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace mattmc3.dotmore.Text.RegularExpressions {
+namespace dotmore.Text.RegularExpressions {
 
 	public static class RegexHelper {
 

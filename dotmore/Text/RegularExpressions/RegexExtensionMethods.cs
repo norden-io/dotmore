@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace mattmc3.dotmore.Text.RegularExpressions {
+namespace dotmore.Text.RegularExpressions {
 	public static class ReflectionExtensionMethods {
 		/// <summary>
 		/// Converts a string to regex options.  The string matches Perl's mappings.

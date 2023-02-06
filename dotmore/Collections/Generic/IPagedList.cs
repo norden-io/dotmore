@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 	interface IPagedList {
 		int TotalCount { get; set; }
 		int TotalPages { get; set; }

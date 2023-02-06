@@ -5,10 +5,10 @@ using System.Collections.Specialized;
 using System.Collections.Generic;
 using System.Linq;
 //using mattmc3.dotmore.Text;
-using mattmc3.dotmore.Diagnostics;
-using mattmc3.dotmore.Extensions;
+using dotmore.Diagnostics;
+using dotmore.Extensions;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 
 	/// <summary>
 	/// A dictionary object that allows rapid hash lookups using keys, but also

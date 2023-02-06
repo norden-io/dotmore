@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 	/// <summary>
 	/// Comparison helper class for IEnumerable&lt;T&gt;
 	/// </summary>

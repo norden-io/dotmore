@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using mattmc3.dotmore.Diagnostics;
+using dotmore.Diagnostics;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 
 	/// <summary>
 	/// This dictionary allows you to add items to it without checking whether the key already

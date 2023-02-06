@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using mattmc3.dotmore.Text.RegularExpressions;
 using System.Globalization;
+using dotmore.Text.RegularExpressions;
 
-namespace mattmc3.dotmore.Extensions {
+namespace dotmore.Extensions {
 	public static class StringExtensions {
 		/// <summary>
 		/// Works like JavaScript's slice() method, where you specify a starting index and an ending index
@@ -299,7 +299,7 @@ namespace mattmc3.dotmore.Extensions {
 		public static string NormalizeWhiteSpace(this string s) {
 			if (s == null) return null;
 			if (s_regexNormalizeSpace == null) {
-				s_regexNormalizeSpace = new Regex(@"\s+", mattmc3.dotmore.Text.RegularExpressions.RegexHelper.XmsOpts | RegexOptions.Compiled);
+				s_regexNormalizeSpace = new Regex(@"\s+", RegexHelper.XmsOpts | RegexOptions.Compiled);
 			}
 			return s_regexNormalizeSpace.Replace(s.Trim(), " ");
 		}

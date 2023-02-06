@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 	/// <summary>
 	/// Provides functionality for creation of an EqualityComparer with lambda
 	/// Equals and GetHashCode functions.

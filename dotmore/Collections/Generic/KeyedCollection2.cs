@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 	/// <summary>
 	/// A concrete implementation of the abstract KeyedCollection class using lambdas for the
 	/// implementation.

@@ -2,7 +2,7 @@
 using System.Text;
 using System.Linq;
 
-namespace mattmc3.dotmore.Extensions {
+namespace dotmore.Extensions {
 	public static class StringBuilderExtensions {
 		/// <summary>
 		/// Appends the .ToString() value of the object supplied along with the default line terminator.

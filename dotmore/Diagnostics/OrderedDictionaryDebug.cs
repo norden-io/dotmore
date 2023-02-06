@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Collections.Specialized;
 
-namespace mattmc3.dotmore.Diagnostics {
+namespace dotmore.Diagnostics {
 	[DebuggerDisplay("{Value}", Name = "[{Index}]: {Key}")]
 	internal class IndexedKeyValuePairs {
 		public IDictionary Dictionary { get; private set; }

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 
 	public static class EnumerableExtensions {
 		public static T Coalesce<T>(this IEnumerable<T> e) {

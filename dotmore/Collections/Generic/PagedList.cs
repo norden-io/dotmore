@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 	public class PagedList<T> : List<T>, IPagedList {
 		public int TotalCount { get; set; }
 		public int TotalPages { get; set; }

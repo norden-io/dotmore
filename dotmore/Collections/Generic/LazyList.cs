@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
 
-namespace mattmc3.dotmore.Collections.Generic {
+namespace dotmore.Collections.Generic {
 	/// <summary>
 	/// An IList implementation that flexes IQueryable's delayed loading
 	/// </summary>

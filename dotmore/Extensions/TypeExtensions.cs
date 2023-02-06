@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mattmc3.dotmore.Extensions {
+namespace dotmore.Extensions {
 	public static class TypeExtensions {
 		public static bool IsStructure(this Type theType) {
 			return (theType.IsValueType && theType.IsEnum == false && theType.IsPrimitive == false);
